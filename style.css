@@ -7,6 +7,17 @@ body{
     background-attachment: fixed;
 }
 
+.profile{
+	position: relative;
+	display: block;
+	margin-left: 15%;
+	margin-bottom: -50px;
+	margin-top: 100px;
+}
+
+.about_vader{
+	margin-top: 300px;
+}
 
 .nav_bar{
 	height: 75px;
@@ -77,6 +88,11 @@ aside{
 .asidep{
 	text-align: center;
 	float: center;
+}
+
+.caption{
+	color: white;
+	text-align: center;
 }
 
 h1{
