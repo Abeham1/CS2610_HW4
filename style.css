@@ -128,10 +128,8 @@ table{
 	border-style: solid;
 	border-width: 5px;
 	border-color: white;
-	background: black;
 	text-align: center;
 	position: relative;
-	
 	margin: 10px;
 	padding: 10px;
 }
@@ -162,4 +160,23 @@ p{
 
 .1234{
 	color: orange;
+}
+
+.one{
+	order: 2;
+	background-image: url("download.jpg");
+	background-position: local;
+}
+.two{
+	order: 3;
+	background-image: url("download.jpg");
+	background-position:fixed;
+}
+.three{
+	order: 4;
+	background-image: url("download.jpg");
+	background-position: scroll;
+}
+.fourth{
+	order: 1;
 }
